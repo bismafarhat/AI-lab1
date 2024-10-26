@@ -1,0 +1,92 @@
+Task
+message = "prommaing languages"
+
+characters = ['r', 'a', 'm', 'n', 'u']
+
+
+char_count = {char: 0 for char in characters}
+
+for char in message:
+    if char in char_count:
+        char_count[char] += 1
+
+
+for char in characters:
+    print(f"Character '{char}' occurs {char_count[char]} time(s).")
+
+output
+    
+Character 'r' occurs 1 time(s).
+Character 'a' occurs 3 time(s).
+Character 'm' occurs 2 time(s).
+Character 'n' occurs 2 time(s).
+Character 'u' occurs 1 time(s).
+
+
+Task
+name = "John Doe"
+cnic = "12345-6789012-3"
+address = "1234 Elm Street, Springfield, IL, USA"
+
+
+print("Profile Information")
+print("-------------------")
+print(f"Name    : {name}")
+print(f"CNIC    : {cnic}")
+print(f"Address : {address}")
+output
+Profile Information
+-------------------
+Name    : John Doe
+CNIC    : 12345-6789012-3
+Address : 1234 Elm Street, Springfield, IL, USA
+
+Task
+a = 5
+b = 10
+
+print("Before swap:")
+print("a =", a)
+print("b =", b)
+
+temp = a
+a = b
+b = temp
+
+print("After swap:")
+print("a =", a)
+print("b =", b)
+output
+Before swap:
+a = 5
+b = 10
+After swap:
+a = 10
+b = 5
+
+Task
+a=input("Enter your sap id")
+b=input("Enter your name")
+print("Hey, your name is: " + b + " and your SAP ID is: " + a)
+
+output
+Enter your sap id39967
+Enter your namebisma
+Hey, your name is: bisma and your SAP ID is: 39967
+
+
+Task
+a = 2
+b = 3
+
+if a < b:
+    print("a is less than b")
+elif a > b:
+    print("b is greater than a")
+else:
+    print("error")
+output
+a is less than b
+
+
+
